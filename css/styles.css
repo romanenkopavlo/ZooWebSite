@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+.carousel-item {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 40.5%;
+    transform: translate(-40.5%, -50%);
+    text-align: center;
+    align-content: center;
+    z-index: 1;
+}
+
+.overlay.ticket {
+    position: absolute;
+    top: 0;
+    left: 85%;
+    transform: translate(85%, 0%) scale(3);
+}
+
+.image {
+    filter: brightness(0.65);
+    z-index: 2;
+}
+
+.buttonClick {
+    opacity: 60%;
+    width: 300%;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.dates li {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.hours li {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.cardAnimal1, .cardAnimal2, .cardAnimal3, .cardAnimal4, .cardAnimal5, .cardAnimal6, .cardAnimal7, .cardAnimal8 {
+    transition: transform 0.3s ease;
+}
+
+.cardAnimal1, .cardAnimal5 {
+    z-index: 4;
+}
+
+.cardAnimal2, .cardAnimal6 {
+    z-index: 3;
+}
+
+.cardAnimal3, .cardAnimal7 {
+    z-index: 2;
+}
+
+.cardAnimal4, .cardAnimal8 {
+    z-index: 1;
+}
+
+.cardAnimal1:hover, .cardAnimal2:hover, .cardAnimal3:hover, .cardAnimal5:hover, .cardAnimal6:hover, .cardAnimal7:hover {
+    transform: scale(1.2) translateX(15%) translateY(-5%);
+}
+
+.cardAnimal1:not:hover, .cardAnimal2:not:hover, .cardAnimal3:not:hover, .cardAnimal5:not:hover, .cardAnimal6:not:hover, .cardAnimal7:not:hover {
+    transform: none;
+}
+
+.cardAnimal4:hover, .cardAnimal8:hover {
+    z-index: 3;
+    transform: scale(1.2) translateX(-15%) translateY(-5%);
+}
+
+.cardAnimal4:not:hover, .cardAnimal8:not:hover {
+    z-index: 1;
+    transform: none;
+}
+
+.priceInput {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
