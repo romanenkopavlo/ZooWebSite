@@ -45,6 +45,13 @@ ob_start();
         </ul>
     </div>
 </main>
+<div class="divider" style="border: 3px solid #388E3C"></div>
+<div class="row center-align">
+    <br>
+    <h3>Our location <i class="fas fa-map-location-dot"></i></h3>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21008.12541670003!2d2.3693521104941873!3d48.83883965740173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e672f4eab21383%3A0x70c3ddb088a9ebba!2sParis%20Zoological%20Park!5e0!3m2!1sen!2sfr!4v1711927946852!5m2!1sen!2sfr" width="800" height="450" style="border:0; border-radius: 70px" allowfullscreen="allowfullscreen"></iframe>
+</div>
 <?php
 $content = ob_get_clean();
 ?>
