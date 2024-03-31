@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jardin des Animaux</title>
+    <title><?php echo $title ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,46 +17,18 @@
 <header>
     <nav>
         <div class="nav-wrapper teal accent-4">
-            <a href="index.html" id="logo" class="brand-logo">Jardin des Animaux</a>
+            <a href="index.php" id="logo" class="brand-logo">Jardin des Animaux</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html"><i class="material-icons right">home</i>Home</a></li>
-                <li><a href="about.html"><i class="material-icons right">info</i>About us</a></li>
-                <li><a href="animals.html"><i class="material-icons right">pets</i>Animals</a></li>
-                <li><a href="tickets.html"><i class="material-icons right">confirmation_number</i>Tickets</a></li>
-                <li><a href="contacts.html"><i class="material-icons right">contacts</i>Contact us</a></li>
+                <li><a href="index.php"><i class="material-icons right">home</i>Home</a></li>
+                <li><a href="about.php"><i class="material-icons right">info</i>About us</a></li>
+                <li><a href="animals.php"><i class="material-icons right">pets</i>Animals</a></li>
+                <li><a href="tickets.php"><i class="material-icons right">confirmation_number</i>Tickets</a></li>
+                <li><a href="contacts.php"><i class="material-icons right">contacts</i>Contact us</a></li>
             </ul>
         </div>
     </nav>
 </header>
-<main>
-    <div id="contactForm" class="container">
-        <br>
-        <h2>Contact us</h2>
-        <div class="input-field">
-            <input id="nameContact" type="text">
-            <label for="nameContact">Name</label>
-        </div>
-        <div class="input-field">
-            <input id="emailContact" type="email">
-            <label for="emailContact">Email</label>
-        </div>
-        <div class="input-field">
-            <textarea id="messageContact" class="materialize-textarea"></textarea>
-            <label for="messageContact">Message</label>
-        </div>
-        <button id="buttonContact" class="btn waves-effect waves-light btn-large disabled" type="submit" name="action">Send
-            <i class="material-icons right">send</i>
-        </button>
-    </div>
-    <div id="contacted">
-        <div class="container center-align" style="margin-top: 180px">
-            <h3>Thank you for contacting us!</h3>
-            <div class="row">
-                <a class="waves-effect waves-light btn-large green darken-2" href="index.html">Back to home page</a>
-            </div>
-        </div>
-    </div>
-</main>
+<?php echo $content ?>
 <footer class="page-footer teal accent-4">
     <div class="container">
         <div class="row">
@@ -85,6 +57,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="js/contacts.js"></script>
+<?php echo $script ?>
 </body>
 </html>
