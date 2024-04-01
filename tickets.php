@@ -84,7 +84,7 @@ ob_start();
                         <div class="col s4">
                             <div class="card teal lighten-1 center-align">
                                 <div class="card-content white-text">
-                                    <span class="card-title">Adult</span>
+                                    <span class="card-title">Adult <i class="fas fa-user fa-2x"></i></span>
                                     <br>
                                     <p id="adultPrice" style="font-size: 30px">18 <i class="fa-solid fa-euro-sign"></i></p>
                                 </div>
@@ -97,7 +97,7 @@ ob_start();
                         <div class="col s4">
                             <div class="card teal lighten-1 center-align">
                                 <div class="card-content white-text">
-                                    <span class="card-title">Child</span>
+                                    <span class="card-title">Child <i class="fas fa-child fa-2x"></i></span>
                                     <br>
                                     <p id="childPrice" style="font-size: 30px">12 <i class="fa-solid fa-euro-sign"></i></p>
                                 </div>
