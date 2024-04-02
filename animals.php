@@ -143,5 +143,6 @@ ob_start();
 </main>
 <?php
 $content = ob_get_clean();
+$script = "";
 include "includes/template.php";
 ?>
