@@ -13,11 +13,11 @@ ob_start();
                 <div class="col s12">
                     <div class="col s4">
                         <div class="card">
-                            <div class="cardAnimal1 card-image">
+                            <div class="ticketAnimal cardAnimal1 card-image">
                                 <div class="overlay ticket">
                                     <i class="material-icons" style="color: #ffcc80;">confirmation_number</i>
                                 </div>
-                                <img src="images/pandaTicket.jpg" style="height: 400px; width: 300px">
+                                <img src="images/pandaTicket.jpg">
                                 <span class="card-title">One-day ticket</span>
                             </div>
                             <hr style="border: none; border-top: 2px dotted #000;"/>
@@ -32,11 +32,11 @@ ob_start();
                     </div>
                     <div class="col s4">
                         <div class="card">
-                            <div class="cardAnimal2 card-image">
+                            <div class="ticketAnimal cardAnimal2 card-image">
                                 <div class="overlay ticket">
                                     <i class="material-icons" style="color: #ffcc80;">confirmation_number</i>
                                 </div>
-                                <img src="images/lionsTicket.jpg" style="height: 400px; width: 300px">
+                                <img src="images/lionsTicket.jpg">
                                 <span class="card-title">Two-day ticket</span>
                             </div>
                             <hr style="border: none; border-top: 2px dotted #000;"/>
@@ -50,11 +50,11 @@ ob_start();
                     </div>
                     <div class="col s4">
                         <div class="card">
-                            <div class="cardAnimal3 card-image">
+                            <div class="ticketAnimal cardAnimal3 card-image">
                                 <div class="overlay ticket">
                                     <i class="material-icons" style="color: #ffcc80;">confirmation_number</i>
                                 </div>
-                                <img src="images/coalaTicket.jpg" style="height: 400px; width: 300px">
+                                <img src="images/coalaTicket.jpg">
                                 <span class="card-title">Annual zoo pass</span>
                             </div>
                             <hr style="border: none; border-top: 2px dotted #000;"/>
