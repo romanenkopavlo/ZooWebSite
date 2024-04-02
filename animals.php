@@ -9,8 +9,8 @@ ob_start();
     <div class="row">
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal1 card-image">
-                    <img src="images/animals.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal1 card-image">
+                    <img src="images/animals.jpg">
                     <span class="card-title">Panda</span>
                 </div>
                 <div class="card-content">
@@ -24,8 +24,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal2 card-image">
-                    <img src="images/capybara.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal2 card-image">
+                    <img src="images/capybara.jpg">
                     <span class="card-title">Capybara</span>
                 </div>
                 <div class="card-content">
@@ -38,8 +38,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal3 card-image">
-                    <img src="images/lion.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal3 card-image">
+                    <img src="images/lion.jpg">
                     <span class="card-title">Lion</span>
                 </div>
                 <div class="card-content">
@@ -52,8 +52,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal4 card-image">
-                    <img src="images/elephant.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal4 card-image">
+                    <img src="images/elephant.jpg">
                     <span class="card-title">Elephant</span>
                 </div>
                 <div class="card-content">
@@ -74,8 +74,8 @@ ob_start();
     <div class="row">
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal5 card-image">
-                    <img src="images/giraffe.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal5 card-image" style="height: 330px; width: 100%">
+                    <img src="images/giraffe.jpg">
                     <span class="card-title">Giraffe</span>
                 </div>
                 <div class="card-content">
@@ -88,8 +88,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal6 card-image">
-                    <img src="images/zebra.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal6 card-image">
+                    <img src="images/zebra.jpg">
                     <span class="card-title">Zebra</span>
                 </div>
                 <div class="card-content">
@@ -102,8 +102,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal7 card-image">
-                    <img src="images/Black_panther_India.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal7 card-image">
+                    <img src="images/Black_panther_India.jpg">
                     <span class="card-title">Black panther</span>
                 </div>
                 <div class="card-content">
@@ -116,8 +116,8 @@ ob_start();
         </div>
         <div class="col s3">
             <div class="card">
-                <div class="cardAnimal8 card-image">
-                    <img src="images/Red-kangaroo-animals-Blackpool-Zoo-main.jpg" style="height: 300px; width: 358px">
+                <div class="cardAnimal cardAnimal8 card-image">
+                    <img src="images/Red-kangaroo-animals-Blackpool-Zoo-main.jpg">
                     <span class="card-title">Red kangaroo</span>
                 </div>
                 <div class="card-content">

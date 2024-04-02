@@ -60,6 +60,11 @@ footer {
     padding-top: 15px;
 }
 
+.card .cardAnimal img {
+    height: 330px;
+    width: 100%;
+}
+
 .cardAnimal1, .cardAnimal2, .cardAnimal3, .cardAnimal4, .cardAnimal5, .cardAnimal6, .cardAnimal7, .cardAnimal8 {
     transition: transform 0.3s ease;
 }
